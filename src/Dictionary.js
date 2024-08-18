@@ -13,6 +13,7 @@ export default function Dictionary() {
     event.preventDefault();
     alert(`Searching for ${keyword}`);
 
+    // documentation: https://www.shecodes.io/learn/apis/dictionary
     let apiKey = `dbaa90bd0tdaf4424ef37230ff2fcfo8`;
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
 
