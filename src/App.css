@@ -21,6 +21,10 @@ a {
   color: #8039e4;
 }
 
+ul {
+  margin-bottom: 0;
+}
+
 footer {
   font-size: 14px;
   margin-top: 50px;

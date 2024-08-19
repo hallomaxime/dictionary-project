@@ -33,6 +33,7 @@ export default function Dictionary() {
           type="search"
           onChange={handleKeywordChange}
           id="search"
+          placeholder="Please enter a word that you would like to look up…"
           className="col-9 search"
         />
         <input
